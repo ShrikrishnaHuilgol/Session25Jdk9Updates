@@ -1,0 +1,18 @@
+/*we cannot create a module in jshell beacuse only the below operations are allowed in jshell:
+Expression
+Statement
+ClassDeclaration
+InterfaceDeclaration
+MethodDeclaration
+FieldDeclaration
+ImportDeclaration
+*/
+
+//we get following error if we try to create module:
+
+module com.krishna {
+   ...>     System.out.println("Module com.krishna");
+   ...> }
+|  Error:
+|  ';' expected
+|  module com.krishna {

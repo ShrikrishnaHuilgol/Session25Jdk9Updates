@@ -1,0 +1,32 @@
+//Variables
+jshell> String str="Krishna"
+str ==> "Krishna"
+
+jshell> int a=5
+a ==> 5
+
+//Methods
+jshell> int sum(int x,int y){
+   ...>     return x+y;
+   ...> }
+|  created method sum(int,int)
+
+jshell> sum(25,67)
+$4 ==> 92
+
+//Class
+jshell> class Demo{
+   ...>     int a;
+   ...>     void diplay(){
+   ...>         System.out.println("Demo class Display method");
+   ...>     }
+   ...> }
+|  created class Demo
+
+//Object
+jshell> Demo obj_demo=new Demo();
+obj_demo ==> Demo@2d38eb89
+
+//Calling methods
+jshell> obj_demo.diplay();
+Demo class Display method

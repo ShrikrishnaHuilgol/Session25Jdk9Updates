@@ -1,0 +1,25 @@
+Try to compile below code and show the output,mentioned the reason in output
+
+public class UnderScoreExample {  
+    public static void main(String[] args) {  
+        int  _ = 50;  
+        System.out.println(_);  
+    }  
+}  
+
+Ans:
+jshell> public class UnderScoreExample {
+   ...>    public static void main(String[] args){
+   ...>         int a=50;
+   ...>         System.out.println(a);
+   ...>     }
+   ...> }
+|  created class UnderScoreExample
+
+//creating a String array
+jshell> String[] args={"Krishna","Huilgol"};
+args ==> String[2] { "Krishna", "Huilgol" }
+
+//pass it to main while calling
+jshell> UnderScoreExample.main(args);
+50
